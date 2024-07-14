@@ -4,4 +4,5 @@
   column-fill: balance;
   column-rule: 1.5px solid #ffff;
   align-self: center;
+  cursor: pointer;
 }
