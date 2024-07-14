@@ -78,6 +78,10 @@ const config = {
         secondary: "#000000",
         "secondary-1": "#A3A3A3",
       },
+      backgroundImage: {
+        "gradient-pink": 'linear-gradient(310deg, #7928ca, #ff0080)',
+        "gradient-green": 'linear-gradient(310deg,#17ad37,#98ec2d)',
+      },
       borderColor: {
         primary: "#FF3366",
       }
