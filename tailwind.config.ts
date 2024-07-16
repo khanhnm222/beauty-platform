@@ -75,6 +75,7 @@ const config = {
       backgroundColor: {
         primary: "#FF3366",
         "primary-1": "#EA596E",
+        "primary-2": "#fca4b1",
         secondary: "#000000",
         "secondary-1": "#A3A3A3",
       },
