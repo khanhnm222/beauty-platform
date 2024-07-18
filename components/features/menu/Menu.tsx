@@ -1,14 +1,12 @@
 "use client";
 import { ADVISORY, CATEGORIES, HOME, LIVE } from "@/constants";
 import { cn } from "@/lib/utils";
-import { isEmptyString } from "@/utils/validates";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useMemo } from "react";
 
 const Menu = () => {
   const pathname = usePathname();
-  console.log(pathname);
 
   const activatedMenu = useMemo((): string => {
     if (pathname) {

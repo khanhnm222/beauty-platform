@@ -15,7 +15,7 @@ const LiveCard = ({
   memberCount,
   onlineCount,
 }: LiveCardProps) => {
-  const router = useRouter()
+  const router = useRouter();
   return (
     <div
       className="relative group bg-primary-2 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-primary-2/80 hover:smooth-hover"

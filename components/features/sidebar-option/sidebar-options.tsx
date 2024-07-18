@@ -16,7 +16,7 @@ interface SidebarOptionProps {
   }
 };
 export default function SidebarOption({children, title, contentHeading, filterInfo}: SidebarOptionProps) {
-  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
+  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
 
   return (
     <div className="bg-white w-full">
