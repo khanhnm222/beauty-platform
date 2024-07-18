@@ -1,14 +1,22 @@
 import { Dialog, DialogBackdrop, DialogPanel, Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
-import { filters, subCategories } from "./filter-section";
 import { MinusIcon, PlusIcon } from '@heroicons/react/20/solid';
 import { Dispatch, SetStateAction } from "react";
 import { XMarkIcon } from '@heroicons/react/24/outline'
+import { FilterItem, SubCategories } from "@/app/types/filter.type";
 
 interface FilterDrawProps {
   mobileFiltersOpen: boolean;
   setMobileFiltersOpen: Dispatch<SetStateAction<boolean>>;
+  subCategories: SubCategories[];
+  filters: FilterItem[];
+
 };
-const FilterDraw = ({mobileFiltersOpen = false, setMobileFiltersOpen}: FilterDrawProps) => {
+const FilterDraw = ({
+  mobileFiltersOpen = false,
+  setMobileFiltersOpen,
+  subCategories,
+  filters,
+}: FilterDrawProps) => {
   return (
     <Dialog open={mobileFiltersOpen} onClose={setMobileFiltersOpen} className="relative z-40 lg:hidden">
       <DialogBackdrop
@@ -36,7 +44,7 @@ const FilterDraw = ({mobileFiltersOpen = false, setMobileFiltersOpen}: FilterDra
           <form className="mt-4 border-t border-gray-200">
             <h3 className="sr-only">Categories</h3>
             <ul role="list" className="px-2 py-3 font-medium text-gray-900">
-              {subCategories.map((category) => (
+              {subCategories.map((category: SubCategories) => (
                 <li key={category.name}>
                   <a href={category.href} className="block px-2 py-3">
                     {category.name}
@@ -45,7 +53,7 @@ const FilterDraw = ({mobileFiltersOpen = false, setMobileFiltersOpen}: FilterDra
               ))}
             </ul>
 
-            {filters.map((section) => (
+            {filters.map((section: FilterItem) => (
               <Disclosure key={section.id} as="div" className="border-t border-gray-200 px-4 py-6">
                 <h3 className="-mx-2 -my-3 flow-root">
                   <DisclosureButton className="group flex w-full items-center justify-between bg-white px-2 py-3 text-gray-400 hover:text-gray-500">

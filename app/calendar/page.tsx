@@ -67,7 +67,7 @@ const Calendar = () => {
                 </div>
                 <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer">
                   <div
-                    className="event bg-purple-400 text-white rounded p-1 text-sm mb-1"
+                    className="event bg-primary text-white rounded p-1 text-sm mb-1"
                   >
                     <span className="event-name">
                       Meeting
@@ -77,7 +77,7 @@ const Calendar = () => {
                     </span>
                   </div>
                   <div
-                    className="event bg-purple-400 text-white rounded p-1 text-sm mb-1"
+                    className="event bg-primary text-white rounded p-1 text-sm mb-1"
                   >
                     <span className="event-name">
                       Meeting

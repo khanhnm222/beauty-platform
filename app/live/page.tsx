@@ -1,5 +1,6 @@
 import SidebarOption from "@/components/features/sidebar-option/sidebar-options";
 import LiveCard from "@/components/features/live-card/live-card";
+import { filters, subCategories } from '@/constants';
 
 const Live = () => {
   const liveList = [
@@ -34,9 +35,17 @@ const Live = () => {
       onlineCount: '1',
     },
   ];
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <SidebarOption title="Live" contentHeading="List">
+      <SidebarOption
+        title="Live"
+        contentHeading="List"
+        filterInfo={{
+          subCategories: subCategories,
+          filterList: filters
+        }}
+      >
         <div className="mb-10 sm:mb-0 mt-10 grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full">
           {liveList.map((live, index) => (
               <LiveCard key={index} name={live.name} avatar={live.avatar} memberCount={live.memberCount} onlineCount={live.onlineCount} />
