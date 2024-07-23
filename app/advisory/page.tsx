@@ -1,5 +1,5 @@
 import SidebarOption from "@/components/features/sidebar-option/sidebar-options";
-import { filters, subCategories } from "@/constants";
+import { advisoryFilters, subAdvisoryItems } from "@/constants";
 
 const Advisory = () => {
   return (
@@ -8,8 +8,8 @@ const Advisory = () => {
         title="Advisory"
         contentHeading="List"
         filterInfo={{
-          subCategories: subCategories,
-          filterList: filters
+          subCategories: subAdvisoryItems,
+          filterList: advisoryFilters
         }}
       >
         This is a advisory page

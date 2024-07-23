@@ -1,6 +1,6 @@
 import SidebarOption from "@/components/features/sidebar-option/sidebar-options";
 import LiveCard from "@/components/features/live-card/live-card";
-import { filters, subCategories } from '@/constants';
+import { liveFilters, subLiveItems } from '@/constants';
 
 const Live = () => {
   const liveList = [
@@ -42,8 +42,8 @@ const Live = () => {
         title="Live"
         contentHeading="List"
         filterInfo={{
-          subCategories: subCategories,
-          filterList: filters
+          subCategories: subLiveItems,
+          filterList: liveFilters
         }}
       >
         <div className="mb-10 sm:mb-0 mt-10 grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full">

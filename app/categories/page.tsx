@@ -1,5 +1,5 @@
 import SidebarOption from "@/components/features/sidebar-option/sidebar-options";
-import { filters, subCategories } from "@/constants";
+import { categoryFilters, subCategoriesItems } from "@/constants";
 
 const Categories = () => {
   return (
@@ -8,8 +8,8 @@ const Categories = () => {
         title="Categories"
         contentHeading="List"
         filterInfo={{
-          subCategories: subCategories,
-          filterList: filters
+          subCategories: subCategoriesItems,
+          filterList: categoryFilters
         }}
       >
         <div>This is my categories page</div>
