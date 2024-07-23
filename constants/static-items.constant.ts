@@ -1,4 +1,4 @@
-import { FilterItem, SubCategories } from "@/app/types/filter.type";
+import { FilterItem, SubCategories } from "@/types/filter.type";
 
 const filters = [
   {
