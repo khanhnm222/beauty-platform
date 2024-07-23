@@ -1,4 +1,4 @@
-import { FilterItem, SubCategories } from "@/app/types/filter.type";
+import { FilterItem, SubCategories } from "@/types/filter.type";
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
 import { MinusIcon, PlusIcon } from '@heroicons/react/20/solid';
 
@@ -13,7 +13,7 @@ const FilterSection = ({subCategories = [], filters = []}: FilterSectionProps) =
       <ul role="list" className="space-y-4 border-b border-gray-200 pb-6 text-sm font-medium text-gray-900">
         {subCategories.map((category) => (
           <li key={category.name}>
-            <a href={category.href}>{category.name}</a>
+            <button className=" hover:text-primary">{category.name}</button>
           </li>
         ))}
       </ul>

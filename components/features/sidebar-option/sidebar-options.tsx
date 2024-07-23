@@ -4,7 +4,7 @@ import { useState } from 'react'
 import FilterSection from './filter-section';
 import FilterDraw from './filter-draw';
 import FilterMenu from './filter-menu';
-import { FilterItem, SubCategories } from '@/app/types/filter.type';
+import { FilterItem, SubCategories } from '@/types/filter.type';
 
 interface SidebarOptionProps {
   children: React.ReactNode;

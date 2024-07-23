@@ -2,7 +2,7 @@ import { Dialog, DialogBackdrop, DialogPanel, Disclosure, DisclosureButton, Disc
 import { MinusIcon, PlusIcon } from '@heroicons/react/20/solid';
 import { Dispatch, SetStateAction } from "react";
 import { XMarkIcon } from '@heroicons/react/24/outline'
-import { FilterItem, SubCategories } from "@/app/types/filter.type";
+import { FilterItem, SubCategories } from "@/types/filter.type";
 
 interface FilterDrawProps {
   mobileFiltersOpen: boolean;
@@ -46,7 +46,7 @@ const FilterDraw = ({
             <ul role="list" className="px-2 py-3 font-medium text-gray-900">
               {subCategories.map((category: SubCategories) => (
                 <li key={category.name}>
-                  <a href={category.href} className="block px-2 py-3">
+                  <a href={category.href} className="block px-2 py-3 hover:text-primary">
                     {category.name}
                   </a>
                 </li>
