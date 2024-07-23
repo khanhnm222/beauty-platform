@@ -13,7 +13,8 @@ const Menu = () => {
       if (pathname.includes(LIVE)) return LIVE;
       if (pathname.includes(ADVISORY)) return ADVISORY;
       if (pathname.includes(CATEGORIES)) return CATEGORIES;
-      if (pathname.includes(HOME)) return HOME;
+      if (pathname.includes(HOME) && pathname.length === 1) return HOME;
+      return '';
     }
     return '';
   }, [pathname]);

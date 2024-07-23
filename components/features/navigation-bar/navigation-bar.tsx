@@ -17,12 +17,13 @@ import {
 } from "@/components/ui/popover";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
+import Link from "next/link";
 
 const NavigationBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const router = useRouter();
   return (
-    <div className="justify-between fixed w-full z-30 flex bg-white dark:bg-[#0F172A] p-2 items-center h-16 px-10 bg-gradient-2 border-b-[1px] border-primary">
+    <div className="justify-between fixed w-full z-30 flex bg-white/90 dark:bg-[#0F172A] p-2 items-center h-16 px-10 bg-gradient-2 border-b-[1px] border-primary">
       <div className={cn(
         styles.logoContainer,
       )}
@@ -83,17 +84,23 @@ const NavigationBar = () => {
                 <div className="grid gap-4 justify-center">
                   <div className="grid gap-2 cursor-pointer">
                     <div className="items-center gap-4">
-                      <Label htmlFor="width" className="cursor-pointer hover:text-primary">Profile</Label>
+                      <Link href='/profile'>
+                        <Label htmlFor="width" className="cursor-pointer hover:text-primary">Profile</Label>
+                      </Link>
                     </div>
                   </div>
                   <div className="grid gap-2 cursor-pointer">
                     <div className="items-center gap-4">
+                    <Link href='/settings'>
                       <Label htmlFor="width" className="cursor-pointer hover:text-primary">Settings</Label>
+                    </Link>
                     </div>
                   </div>
                   <div className="grid gap-2 cursor-pointer">
                     <div className="items-center gap-4">
+                    <Link href='/'>
                       <Label htmlFor="width" className="cursor-pointer hover:text-primary">Logout</Label>
+                    </Link>
                     </div>
                   </div>
                 </div>
