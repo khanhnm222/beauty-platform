@@ -9,13 +9,12 @@ const Banner = () => {
             Let us find your
             <strong className="block font-extrabold text-rose-500">
               {" "}
-              Forever Home.{" "}
+              Better version.{" "}
             </strong>
           </h1>
 
           <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-            illo tenetur fuga ducimus numquam ea!
+            Make your life more beautiful and happier!
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4 text-center">
@@ -30,7 +29,7 @@ const Banner = () => {
               href="#"
               className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
             >
-              Learn More
+              More
             </a>
           </div>
         </div>
