@@ -1,0 +1,23 @@
+.liveConfirmation button:first-child {
+  background-color: #FF3366;
+}
+
+.liveConfirmation button:nth-child(2) {
+  background-blend-mode: exclusion;
+}
+
+.zego_model_parent {
+  background-color: #FF3366;
+}
+
+.liveConfirmation div {
+  background-color: unset;
+}
+
+.liveConfirmation div span:first-child {
+  background-color: #FF3366;
+}
+
+.liveConfirmation video {
+  background-color: #efb2c1;
+}
