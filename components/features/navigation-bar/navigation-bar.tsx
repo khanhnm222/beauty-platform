@@ -3,7 +3,6 @@ import Image from "next/image";
 import logo from '@/public/belle-logo.png';
 import styles from './style.module.css';
 import { IconNotification } from "@/components/icons";
-import Menu from "../menu/menu";
 import IconHeart from "@/components/icons/IconHeart";
 import { cn } from "@/lib/utils";
 import { Bars3Icon } from "@heroicons/react/20/solid";
@@ -12,6 +11,7 @@ import MobileMenu from "../menu/mobile-menu";
 import { useRouter } from "next/navigation";
 import User from "../user/user";
 import Search from "./search";
+import Menu from "../menu/desktop-menu";
 
 const NavigationBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

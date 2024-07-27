@@ -4,7 +4,7 @@ const Blog = () => {
       <div className="2xl:mx-auto 2xl:container lg:px-20 md:px-6 px-4 w-96 sm:w-auto">
         <div role="main" className="flex flex-col items-center justify-center">
           <h1 className="text-4xl font-semibold leading-9 text-center text-primary dark:text-gray-50">This Week Blogs</h1>
-          <p className="text-base leading-normal text-center text-gray-600 dark:text-white mt-4 lg:w-1/2 md:w-10/12 w-11/12">If you're looking for random beauty blogs, you've come to the right place. When a random word or a random sentence isn't quite enough</p>
+          <p className="text-base leading-normal text-center text-gray-600 dark:text-white mt-4 lg:w-1/2 md:w-10/12 w-11/12">If you&apos;re looking for random beauty blogs, you&apos;ve come to the right place. When a random word or a random sentence isn&apos;t quite enough</p>
         </div>
         <div className="lg:flex items-stretch md:mt-12 mt-8">
           <div className="lg:w-1/2">

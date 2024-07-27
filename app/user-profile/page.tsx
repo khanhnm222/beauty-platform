@@ -1,6 +1,7 @@
 'use client'
 import { PhotoIcon } from '@heroicons/react/24/solid';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 const UserProfile = () => {
   const router = useRouter();
@@ -56,7 +57,7 @@ const UserProfile = () => {
                 Photo
               </label>
               <div className="mt-2 flex items-center gap-x-3">
-                <img className="w-8 h-8 rounded-full" src="https://laravelui.spruko.com/tailwind/ynex/build/assets/images/faces/9.jpg" alt="" />
+                <Image className="w-8 h-8 rounded-full" src="https://laravelui.spruko.com/tailwind/ynex/build/assets/images/faces/9.jpg" alt="" />
                 <button
                   type="button"
                   className="rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
