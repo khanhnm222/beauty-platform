@@ -46,6 +46,7 @@ const NavigationBar = () => {
                 styles.alignCenter
               )}
               data-ripple-dark="true"
+              onClick={() => router.push('/favorite', { scroll: false })}
             >
               <IconHeart width={''} height='20px' />
             </button>

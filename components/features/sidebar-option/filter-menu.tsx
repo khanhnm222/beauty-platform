@@ -38,15 +38,14 @@ const FilterMenu = ({setMobileFiltersOpen}: FilterMenuProps) => {
           <div className="py-1">
             {sortOptions.map((option) => (
               <MenuItem key={option.name}>
-                <a
-                  href={option.href}
+                <button
                   className={classNames(
                     option.current ? 'font-medium text-gray-900' : 'text-gray-500',
                     'block px-4 py-2 text-sm data-[focus]:bg-gray-100  hover:text-primary',
                   )}
                 >
                   {option.name}
-                </a>
+                </button>
               </MenuItem>
             ))}
           </div>

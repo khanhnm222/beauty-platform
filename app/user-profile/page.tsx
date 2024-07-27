@@ -1,6 +1,9 @@
-import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid';
+'use client'
+import { PhotoIcon } from '@heroicons/react/24/solid';
+import { useRouter } from 'next/navigation';
 
 const UserProfile = () => {
+  const router = useRouter();
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <form>
@@ -53,7 +56,7 @@ const UserProfile = () => {
                 Photo
               </label>
               <div className="mt-2 flex items-center gap-x-3">
-                <UserCircleIcon aria-hidden="true" className="h-12 w-12 text-gray-300" />
+                <img className="w-8 h-8 rounded-full" src="https://laravelui.spruko.com/tailwind/ynex/build/assets/images/faces/9.jpg" alt="" />
                 <button
                   type="button"
                   className="rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
@@ -101,8 +104,9 @@ const UserProfile = () => {
                   id="first-name"
                   name="first-name"
                   type="text"
+                  value='Khanh'
                   autoComplete="given-name"
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary/80 sm:text-sm sm:leading-6"
+                  className="block w-full rounded-md border-0 py-1.5 pl-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary/80 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -117,7 +121,8 @@ const UserProfile = () => {
                   name="last-name"
                   type="text"
                   autoComplete="family-name"
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary/80 sm:text-sm sm:leading-6"
+                  value='Nguyen'
+                  className="block w-full rounded-md border-0 py-1.5 pl-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary/80 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -219,7 +224,10 @@ const UserProfile = () => {
       </div>
 
       <div className="mt-6 flex items-center justify-end gap-x-6">
-        <button type="button" className="text-sm font-semibold leading-6 text-gray-900">
+        <button
+         className="text-sm font-semibold leading-6 text-gray-900"
+         onClick={() => router.push('/', { scroll: false })}
+        >
           Cancel
         </button>
         <button

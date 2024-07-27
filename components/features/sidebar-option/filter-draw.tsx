@@ -46,9 +46,9 @@ const FilterDraw = ({
             <ul role="list" className="px-2 py-3 font-medium text-gray-900">
               {subCategories.map((category: SubCategories) => (
                 <li key={category.name}>
-                  <a href={category.href} className="block px-2 py-3 hover:text-primary">
+                  <button className="block px-2 py-3 hover:text-primary">
                     {category.name}
-                  </a>
+                  </button>
                 </li>
               ))}
             </ul>

@@ -1,4 +1,8 @@
+'use client'
+import { useRouter } from "next/navigation";
+
 const Settings = () => {
+  const router = useRouter();
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <form>
@@ -93,6 +97,7 @@ const Settings = () => {
                     id="push-nothing"
                     name="push-notifications"
                     type="radio"
+                    value='checked'
                     className="h-4 w-4 border-gray-300 text-primary focus:ring-primary/80"
                   />
                   <label htmlFor="push-nothing" className="block text-sm font-medium leading-6 text-gray-900">
@@ -104,7 +109,9 @@ const Settings = () => {
           </div>
         </div>
         <div className="mt-6 flex items-center justify-end gap-x-6">
-          <button type="button" className="text-sm font-semibold leading-6 text-gray-900">
+          <button type="button" className="text-sm font-semibold leading-6 text-gray-900"
+            onClick={() => router.push('/', { scroll: false })}
+          >
             Cancel
           </button>
           <button
