@@ -8,6 +8,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Belle",
   description: "Beauty platform",
+  keywords:
+    'beauty, platform, model, skincare, fashion, makeup, doctor, seo',
+  icons: {
+    icon: '@/public/belle-icon.png'
+  }
 };
 
 export default function RootLayout({
