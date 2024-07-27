@@ -20,7 +20,7 @@ const Menu = () => {
   }, [pathname]);
 
   return (
-    <nav className="bg-white px-8">
+    <nav className="px-8">
       <div className="-mb-px flex justify-center">
         <Link
           href={HOME}

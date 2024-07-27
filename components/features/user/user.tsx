@@ -6,7 +6,8 @@ import {
 import { Label } from "@/components/ui/label";
 import Link from "next/link";
 import { UserCircleIcon, WalletIcon } from "@heroicons/react/20/solid";
-import { LogOutIcon, Settings2 } from "lucide-react";
+import { Calendar, LogOutIcon, Settings2 } from "lucide-react";
+import ShoppingBag from "../shopping-bag/shopping-bag";
 
 const User = () => {
   return (
@@ -21,18 +22,33 @@ const User = () => {
             </div>
           </div>
           <div className="p-2 md:block text-left">
-            <h2 className="text-sm font-semibold text-gray-800">John Doe</h2>
+            <h2 className="text-sm font-semibold text-gray-800">Khanh</h2>
             {/* <p className="text-xs text-gray-500">Administrator</p> */}
           </div>
         </button>
       </PopoverTrigger>
-      <PopoverContent className="w-[7rem]">
+      <PopoverContent className="w-[11rem]">
         <div className="grid gap-4 justify-center">
           <div className="grid gap-2 cursor-pointer px-2">
             <div className="items-center gap-4">
-              <Link href='/profile'>
+              <Link href='/user-profile'>
                 <Label htmlFor="width" className="cursor-pointer hover:text-primary flex items-center gap-2">
                   <UserCircleIcon height={20}/> Profile
+                </Label>
+              </Link>
+            </div>
+          </div>
+          <div className="grid gap-2 cursor-pointer px-2">
+            <div className="items-center gap-4">
+              <ShoppingBag />
+            </div>
+          </div>
+          <div className="grid gap-2 cursor-pointer px-2">
+            <div className="items-center gap-4">
+              <Link href='/calendar'>
+                <Label htmlFor="width" className="cursor-pointer hover:text-primary flex items-center gap-2">
+                  <Calendar height={20}/>
+                  Calendar
                 </Label>
               </Link>
             </div>
