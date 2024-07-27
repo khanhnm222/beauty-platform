@@ -39,11 +39,11 @@ const filters = [
 ] as FilterItem[];
 
 const subCategories = [
-  { name: 'Totes', href: '#' },
-  { name: 'Backpacks', href: '#' },
-  { name: 'Travel Bags', href: '#' },
-  { name: 'Hip Bags', href: '#' },
-  { name: 'Laptop Sleeves', href: '#' },
+  { name: 'Totes', type: 'totes' },
+  { name: 'Backpacks', type: 'backpacks' },
+  { name: 'Travel Bags', type: 'travelbags' },
+  { name: 'Hip Bags', type: 'hipbags' },
+  { name: 'Laptop Sleeves', type: 'laptop' },
 ] as SubCategories[];
 
 export {
