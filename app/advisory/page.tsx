@@ -10,27 +10,34 @@ const products = [
   },
   {
     id: 2,
+    name: 'Suppermodel Bui Quynh Hoa',
+    type: 'model',
+    imageSrc: '/vietnamese-model.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+  },
+  {
+    id: 3,
     name: 'Dr. Vo Trieu Dat',
     type: 'doctor',
     imageSrc: '/dr-vo-trieu-dat.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
   },
   {
-    id: 3,
+    id: 4,
     name: 'Nguyen Thanh Nam',
     type: 'doctor',
     imageSrc: '/BS_Nguyen_Thanh_Nam.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
   },
   {
-    id: 4,
+    id: 5,
     name: 'Dr. Hong Gam',
     type: 'doctor',
     imageSrc: '/bs-hong-gam.png',
     imageAlt: "Front of men's Basic Tee in black.",
   },
   {
-    id: 4,
+    id: 6,
     name: 'Giang oi',
     href: 'blogger',
     imageSrc: '/Giang-Oi.jpg',
@@ -62,9 +69,9 @@ const Advisory = () => {
                   </div>
                   <div className="mt-4 flex justify-between">
                     <div>
-                      <h3 className="text-sm text-gray-700 hover:text-primary uppercase items-center bold">
+                      <h3 className="text-sm text-gray-700 hover:text-primary uppercase items-center font-bold">
                         <button>
-                          <span aria-hidden="true" className="absolute inset-0 uppercase" />
+                          <span aria-hidden="true" className="absolute inset-0 font-bold uppercase" />
                           {product.name}
                         </button>
                       </h3>
