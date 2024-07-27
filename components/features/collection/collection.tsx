@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const callouts = [
   {
     name: 'Desk and Office',
@@ -22,12 +24,15 @@ const callouts = [
   },
 ]
 
-export default function Category() {
+export default function Collection() {
   return (
     <div className="">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl sm:py-24 lg:max-w-none lg:py-32">
-          <h2 className="text-2xl font-bold text-primary">Collections</h2>
+        <div className="mx-auto max-w-2xl sm:py-10 lg:max-w-none lg:py-16">
+          <div role="main" className="flex flex-col items-center justify-center">
+            <h1 className="text-4xl font-semibold leading-9 text-center text-primary dark:text-gray-50">Collections</h1>
+            <p className="text-base leading-normal text-center text-gray-600 dark:text-white mt-4 lg:w-1/2 md:w-10/12 w-11/12"></p>
+          </div>
 
           <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
             {callouts.map((callout) => (
@@ -40,10 +45,10 @@ export default function Category() {
                   />
                 </div>
                 <h3 className="mt-6 text-sm text-gray-500">
-                  <a href={callout.href}>
+                  <Link href={callout.href}>
                     <span className="absolute inset-0" />
                     {callout.name}
-                  </a>
+                  </Link>
                 </h3>
                 <p className="text-base font-semibold text-gray-900">{callout.description}</p>
               </div>
