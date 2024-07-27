@@ -14,8 +14,9 @@ interface SidebarOptionProps {
     subCategories: SubCategories[];
     filterList: FilterItem[];
   }
+  affiliateType?: number;
 };
-export default function SidebarOption({children, title, contentHeading, filterInfo}: SidebarOptionProps) {
+export default function SidebarOption({children, title, contentHeading, filterInfo, affiliateType}: SidebarOptionProps) {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
 
   return (
@@ -29,9 +30,9 @@ export default function SidebarOption({children, title, contentHeading, filterIn
           filters={filterInfo.filterList}
         />
 
-        <div className="mx-auto max-w-7xl">
+        <div className="mx-auto max-w-6xl">
           <div className="flex items-baseline justify-between border-b border-gray-200 pb-6">
-            <h1 className="text-4xl font-bold tracking-tight text-primary">{title}</h1>
+            <h1 className="md:text-4xl lg:text-4xl sm:text-2xl mr-4 font-bold tracking-tight text-primary">{title}</h1>
 
             <FilterMenu setMobileFiltersOpen={setMobileFiltersOpen}/>
           </div>
@@ -46,6 +47,7 @@ export default function SidebarOption({children, title, contentHeading, filterIn
               <FilterSection
                 subCategories={filterInfo.subCategories}
                 filters={filterInfo.filterList}
+                affiliateType={affiliateType || 1}
               />
 
               {/* Product grid */}

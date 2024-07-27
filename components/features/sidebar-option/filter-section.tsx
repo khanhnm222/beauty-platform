@@ -1,22 +1,24 @@
 import { FilterItem, SubCategories } from "@/types/filter.type";
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
 import { MinusIcon, PlusIcon } from '@heroicons/react/20/solid';
+import AffiliatePanel from "../affiliate/affiliate";
 
 interface FilterSectionProps {
   subCategories?: SubCategories[];
   filters?: FilterItem[];
+  affiliateType: number;
 };
-const FilterSection = ({subCategories = [], filters = []}: FilterSectionProps) => {
+const FilterSection = ({subCategories = [], filters = [], affiliateType}: FilterSectionProps) => {
   return (
     <form className="hidden lg:block">
       <h3 className="sr-only">Categories</h3>
-      <ul role="list" className="space-y-4 border-b border-gray-200 pb-6 text-sm font-medium text-gray-900">
+      <div role="list" className="space-y-4 border-b border-gray-200 pb-6 text-sm font-medium text-gray-900">
         {subCategories.map((category) => (
-          <li key={category.name}>
+          <div key={category.name}>
             <button className=" hover:text-primary">{category.name}</button>
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
 
       {filters.map((section: any) => (
         <Disclosure key={section.id} as="div" className="border-b border-gray-200 py-6">
@@ -50,6 +52,7 @@ const FilterSection = ({subCategories = [], filters = []}: FilterSectionProps) =
           </DisclosurePanel>
         </Disclosure>
       ))}
+      <AffiliatePanel type={affiliateType}/>
     </form>
   );
 };
