@@ -60,7 +60,7 @@ const Calendar = () => {
               </thead>
               <tbody>
                 <tr className="text-center h-20">
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300 ">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80 ">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">1</span>
@@ -89,7 +89,7 @@ const Calendar = () => {
                       </div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">2</span>
@@ -97,7 +97,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">3</span>
@@ -105,7 +105,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">4</span>
@@ -113,7 +113,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">6</span>
@@ -121,7 +121,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-hidden transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-hidden transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">7</span>
@@ -140,7 +140,7 @@ const Calendar = () => {
                       </div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500 text-sm">8</span>
@@ -151,7 +151,7 @@ const Calendar = () => {
                 </tr>
 
                 <tr className="text-center h-20">
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">9</span>
@@ -159,7 +159,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">10</span>
@@ -167,7 +167,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">12</span>
@@ -175,7 +175,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">13</span>
@@ -183,7 +183,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">14</span>
@@ -191,7 +191,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">15</span>
@@ -199,7 +199,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500 text-sm">16</span>
@@ -210,7 +210,7 @@ const Calendar = () => {
                 </tr>
 
                 <tr className="text-center h-20">
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">16</span>
@@ -218,7 +218,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">17</span>
@@ -226,7 +226,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">18</span>
@@ -234,7 +234,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">19</span>
@@ -242,7 +242,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">20</span>
@@ -250,7 +250,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">21</span>
@@ -258,7 +258,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500 text-sm">22</span>
@@ -269,7 +269,7 @@ const Calendar = () => {
                 </tr>
 
                 <tr className="text-center h-20">
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">23</span>
@@ -277,7 +277,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">24</span>
@@ -285,7 +285,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">25</span>
@@ -293,7 +293,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">26</span>
@@ -301,7 +301,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">27</span>
@@ -309,7 +309,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">28</span>
@@ -317,7 +317,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500 text-sm">29</span>
@@ -328,7 +328,7 @@ const Calendar = () => {
                 </tr>
 
                 <tr className="text-center h-20">
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">30</span>
@@ -336,7 +336,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">31</span>
@@ -344,7 +344,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border bg-gray-100 p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border bg-gray-100 p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">1</span>
@@ -352,7 +352,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border bg-gray-100 p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border bg-gray-100 p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">2</span>
@@ -360,7 +360,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border bg-gray-100 p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border bg-gray-100 p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">3</span>
@@ -368,7 +368,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border bg-gray-100 p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border bg-gray-100 p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500">4</span>
@@ -376,7 +376,7 @@ const Calendar = () => {
                       <div className="bottom flex-grow h-30 py-1 w-full cursor-pointer"></div>
                     </div>
                   </td>
-                  <td className="border bg-gray-100 p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-gray-300">
+                  <td className="border bg-gray-100 p-1 h-40 xl:w-40 lg:w-30 md:w-30 sm:w-20 w-10 overflow-auto transition cursor-pointer duration-500 ease hover:bg-primary-2/80">
                     <div className="flex flex-col h-40 xl:w-40 lg:w-30 md:w-30 sm:w-full w-10 mx-auto overflow-hidden">
                       <div className="top h-5 w-full">
                         <span className="text-gray-500 text-sm">5</span>

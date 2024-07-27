@@ -4,12 +4,45 @@ import { categoryFilters, subCategoriesItems } from "@/constants";
 const products = [
   {
     id: 1,
-    name: 'Basic Tee',
+    name: 'Makeup',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageSrc: '/makup-1.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
-    price: '$35',
-    color: 'Black',
+  },
+  {
+    id: 2,
+    name: 'Skincare',
+    href: '#',
+    imageSrc: '/skincare.webp',
+    imageAlt: "Front of men's Basic Tee in black.",
+  },
+  {
+    id: 3,
+    name: 'Yoga',
+    href: '#',
+    imageSrc: '/yoga.webp',
+    imageAlt: "Front of men's Basic Tee in black.",
+  },
+  {
+    id: 4,
+    name: 'Gym',
+    href: '#',
+    imageSrc: '/gym.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+  },
+  {
+    id: 5,
+    name: 'Tattoo',
+    href: '#',
+    imageSrc: '/tattoo.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+  },
+  {
+    id: 6,
+    name: 'Hair Style',
+    href: '#',
+    imageSrc: '/hair-style.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
   },
 ]
 const Categories = () => {
@@ -22,13 +55,14 @@ const Categories = () => {
           subCategories: subCategoriesItems,
           filterList: categoryFilters
         }}
+        affiliateType={2}
       >
         <div className="bg-white">
           <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
             <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
               {products.map((product) => (
                 <div key={product.id} className="group relative">
-                  <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                  <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 max-h-80">
                     <img
                       alt={product.imageAlt}
                       src={product.imageSrc}
@@ -37,15 +71,13 @@ const Categories = () => {
                   </div>
                   <div className="mt-4 flex justify-between">
                     <div>
-                      <h3 className="text-sm text-gray-700">
+                      <h3 className="text-sm text-gray-700 hover:text-primary uppercase items-center bold">
                         <a href={product.href}>
-                          <span aria-hidden="true" className="absolute inset-0" />
+                          <span aria-hidden="true" className="absolute inset-0 uppercase" />
                           {product.name}
                         </a>
                       </h3>
-                      <p className="mt-1 text-sm text-gray-500">{product.color}</p>
                     </div>
-                    <p className="text-sm font-medium text-gray-900">{product.price}</p>
                   </div>
                 </div>
               ))}

@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import NavigationBar from "@/components/features/navigation-bar/navigation-bar";
+import Footer from "@/components/features/footer/footer";
+import { Suspense } from "react";
+import Loading from "@/components/features/loading/loading";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,7 +27,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className} suppressHydrationWarning>
         <NavigationBar />
-        {children}
+        <Suspense fallback={<Loading />}>
+          {children}
+        </Suspense>
+        <Footer />
       </body>
     </html>
   );
