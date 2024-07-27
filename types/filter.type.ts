@@ -1,6 +1,6 @@
 export interface SubCategories {
   name: string;
-  href: string;
+  type: string;
 };
 
 export interface FilterOption {

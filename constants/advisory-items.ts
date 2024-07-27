@@ -9,14 +9,14 @@ const advisoryFilters = [
       { value: 'Female', label: 'Female', checked: false },
     ],
   },
-  {
-    id: 'status',
-    name: 'Status',
-    options: [
-      { value: 'Online', label: 'Online', checked: false },
-      { value: 'Offline', label: 'Offline', checked: false },
-    ],
-  },
+  // {
+  //   id: 'status',
+  //   name: 'Status',
+  //   options: [
+  //     { value: 'Online', label: 'Online', checked: false },
+  //     { value: 'Offline', label: 'Offline', checked: false },
+  //   ],
+  // },
   {
     id: 'location',
     name: 'Location',
@@ -31,9 +31,10 @@ const advisoryFilters = [
 ] as FilterItem[];
 
 const subAdvisoryItems = [
-  { name: 'Doctor', href: '#' },
-  { name: 'Model', href: '#' },
-  { name: 'Singer', href: '#' },
+  { name: 'Doctor', type: 'doctor' },
+  { name: 'Model', type: 'model' },
+  { name: 'Blogger', type: 'blogger' },
+  { name: 'Trainer', type: 'trainer' },
 ] as SubCategories[];
 
 export {

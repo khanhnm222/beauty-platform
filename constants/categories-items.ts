@@ -9,14 +9,14 @@ const categoryFilters = [
       { value: 'Female', label: 'Female', checked: false },
     ],
   },
-  {
-    id: 'status',
-    name: 'Status',
-    options: [
-      { value: 'Online', label: 'Online', checked: false },
-      { value: 'Offline', label: 'Offline', checked: false },
-    ],
-  },
+  // {
+  //   id: 'status',
+  //   name: 'Status',
+  //   options: [
+  //     { value: 'Online', label: 'Online', checked: false },
+  //     { value: 'Offline', label: 'Offline', checked: false },
+  //   ],
+  // },
   {
     id: 'location',
     name: 'Location',
@@ -31,14 +31,14 @@ const categoryFilters = [
 ] as FilterItem[];
 
 const subCategoriesItems = [
-  { name: 'Skincare', href: '#' },
-  { name: 'Gym', href: '#' },
-  { name: 'Yoga', href: '#' },
-  { name: 'Fashion', href: '#' },
-  { name: 'Styles', href: '#' },
-  { name: 'Makeup', href: '#' },
-  { name: 'Hair', href: '#' },
-  { name: 'Tattoo', href: '#' },
+  { name: 'Skincare', type: 'skincare' },
+  { name: 'Gym', type: 'gym' },
+  { name: 'Yoga', type: 'yoga' },
+  { name: 'Fashion', type: 'fashion' },
+  { name: 'Styles', type: 'styles' },
+  { name: 'Makeup', type: 'makeup' },
+  { name: 'Hair Style', type: '#hairstyle' },
+  { name: 'Tattoo', type: 'tattoo' },
 ] as SubCategories[];
 
 export {
