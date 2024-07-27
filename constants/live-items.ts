@@ -31,9 +31,9 @@ const liveFilters = [
 ] as FilterItem[];
 
 const subLiveItems = [
-  { name: 'Live Now', href: '#' },
-  { name: 'Upcoming', href: '#' },
-  { name: 'Revise', href: '#' },
+  { name: 'Live Now', type: 'livenow' },
+  { name: 'Upcoming', type: 'upcoming' },
+  { name: 'Revise', type: 'revise' },
 ] as SubCategories[];
 
 export {
