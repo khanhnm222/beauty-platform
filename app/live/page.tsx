@@ -5,30 +5,35 @@ import { liveFilters, subLiveItems } from '@/constants';
 const Live = () => {
   const liveList = [
     {
+      id: 'skinacre_dr_gam',
       name: 'Skincare: Dr. Gam',
       avatar: './bs-hong-gam.png',
       memberCount: '1',
       onlineCount: '1',
     },
     {
+      id: 'makeup_giang_oi',
       name: 'Makeup',
       avatar: 'Giang-Oi.jpg',
       memberCount: '1',
       onlineCount: '1',
     },
     {
-      name: 'Doctor An',
-      avatar: 'https://images.unsplash.com/photo-1547592180-85f173990554?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80',
+      id: 'suppermodel_bui_quynh_hoa',
+      name: 'Bui Quynh Hoa',
+      avatar: 'vietnamese-model.jpg',
       memberCount: '1',
       onlineCount: '1',
     },
     {
+      id: 'doctor_dat',
       name: 'Ms Dat',
       avatar: 'dr-vo-trieu-dat.jpg',
       memberCount: '1',
       onlineCount: '1',
     },
     {
+      id: 'doctor_pahn_van_chi',
       name: 'Phan Van Chi',
       avatar: '41.-Phan-Văn-Chí-scaled.jpg',
       memberCount: '1',
@@ -48,7 +53,14 @@ const Live = () => {
       >
         <div className="mb-10 sm:mb-0 grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full">
           {liveList.map((live, index) => (
-              <LiveCard key={index} name={live.name} avatar={live.avatar} memberCount={live.memberCount} onlineCount={live.onlineCount} />
+              <LiveCard
+                key={index}
+                id={live.id}
+                name={live.name}
+                avatar={live.avatar}
+                memberCount={live.memberCount}
+                onlineCount={live.onlineCount}
+              />
             )
           )}
         </div>
