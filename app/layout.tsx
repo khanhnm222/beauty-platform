@@ -15,6 +15,18 @@ export const metadata: Metadata = {
     'beauty, platform, model, skincare, fashion, makeup, doctor, seo',
   icons: {
     icon: '@/public/belle-icon.png'
+  },
+  openGraph: {
+    title: "Belle",
+    description: "Beauty platform",
+    type: 'website',
+    images: [
+      {
+        url: './belle-logo.png',
+        width: 800,
+        height: 400,
+      }
+    ]
   }
 };
 
