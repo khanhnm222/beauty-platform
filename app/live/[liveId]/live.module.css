@@ -1,5 +1,6 @@
 .liveConfirmation button:first-child {
   background-color: #FF3366;
+  color: white;
 }
 
 .liveConfirmation button:nth-child(2) {
@@ -12,12 +13,13 @@
 
 .liveConfirmation div {
   background-color: unset;
+  color: black !important;
 }
 
-.liveConfirmation div span:first-child {
-  background-color: #FF3366;
-}
+/* .liveConfirmation div p {
+  background-color: #FF3366 !important;
+} */
 
 .liveConfirmation video {
-  background-color: #efb2c1;
+  background-color: #f1e2e6;
 }
