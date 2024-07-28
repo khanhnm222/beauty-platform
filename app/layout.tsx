@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: './belle-logo.png',
-        width: 800,
-        height: 400,
+        url: 'https://main--belle-beauty-platform.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbelle-logo.53201411.png&w=256&q=75',
+        width: 256,
+        height: 87,
       }
     ]
   }
