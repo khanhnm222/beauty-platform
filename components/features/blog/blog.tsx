@@ -109,7 +109,7 @@ const Blog = () => {
                     </button>
                   </div>
                 </div>
-                <img src="./blog-6.jpg" className="w-full" alt="wall design" />
+                <img src="./affiliate-1.jpg" className="w-full" alt="wall design" />
               </div>
             </div>
           </div>

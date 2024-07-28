@@ -2,22 +2,22 @@ import Link from "next/link"
 
 const callouts = [
   {
-    name: 'Desk and Office',
-    description: 'Work from home accessories',
+    name: 'Work out',
+    description: 'Workout for every part of the body',
     imageSrc: '/category-1.jpg',
     imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
     href: '#',
   },
   {
-    name: 'Self-Improvement',
-    description: 'Journals and note-taking',
+    name: 'Yoga time',
+    description: 'Make your body feel better',
     imageSrc: '/category-3.jpg',
     imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
     href: '#',
   },
   {
-    name: 'Travel',
-    description: 'Daily commute essentials',
+    name: 'Cardio Training',
+    description: 'Cardio training exercises',
     imageSrc: '/category-2.jpg',
     imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
     href: '#',
