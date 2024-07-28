@@ -32,7 +32,7 @@ const categoryFilters = [
 
 const subCategoriesItems = [
   { name: 'Skincare', type: 'skincare' },
-  { name: 'Gym', type: 'gym' },
+  { name: 'Cardio', type: 'cardio' },
   { name: 'Yoga', type: 'yoga' },
   { name: 'Fashion', type: 'fashion' },
   { name: 'Styles', type: 'styles' },

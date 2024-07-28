@@ -32,9 +32,9 @@ const advisoryFilters = [
 
 const subAdvisoryItems = [
   { name: 'Doctor', type: 'doctor' },
-  { name: 'Model', type: 'model' },
-  { name: 'Blogger', type: 'blogger' },
-  { name: 'Trainer', type: 'trainer' },
+  { name: 'Stylist', type: 'stylist' },
+  { name: 'Nutritionist', type: 'nutritionist' },
+  { name: 'Beauty Blogger', type: 'blogger' },
 ] as SubCategories[];
 
 export {

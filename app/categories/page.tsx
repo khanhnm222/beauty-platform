@@ -6,43 +6,43 @@ const products = [
   {
     id: 1,
     name: 'Makeup',
-    href: '#',
+    type: 'makeup',
     imageSrc: '/makup-1.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
   },
   {
     id: 2,
     name: 'Skincare',
-    href: '#',
+    type: 'skincare',
     imageSrc: '/skincare.webp',
     imageAlt: "Front of men's Basic Tee in black.",
   },
   {
     id: 3,
     name: 'Yoga',
-    href: '#',
+    type: 'yoga',
     imageSrc: '/yoga.webp',
     imageAlt: "Front of men's Basic Tee in black.",
   },
   {
     id: 4,
-    name: 'Gym',
-    href: '#',
-    imageSrc: '/gym.jpg',
+    name: 'Cardio',
+    type: 'cardio',
+    imageSrc: '/cardio.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
   },
   {
     id: 5,
     name: 'Tattoo',
-    href: '#',
+    type: 'tattoo',
     imageSrc: '/tattoo.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
   },
   {
     id: 6,
-    name: 'Hair Style',
-    href: '#',
-    imageSrc: '/hair-style.jpg',
+    name: 'Personal Color',
+    type: 'personalcolor',
+    imageSrc: '/personal_color.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
   },
 ]
@@ -67,16 +67,18 @@ const Categories = () => {
                     <Image
                       alt={product.imageAlt}
                       src={product.imageSrc}
+                      width={150}
+                      height={256}
                       className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                     />
                   </div>
                   <div className="mt-4 flex justify-between">
                     <div>
                       <h3 className="text-sm text-gray-700 hover:text-primary uppercase items-center bold">
-                        <a href={product.href}>
+                        <button>
                           <span aria-hidden="true" className="absolute inset-0 uppercase" />
                           {product.name}
-                        </a>
+                        </button>
                       </h3>
                     </div>
                   </div>

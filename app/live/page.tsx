@@ -50,6 +50,7 @@ const Live = () => {
           subCategories: subLiveItems,
           filterList: liveFilters
         }}
+        affiliateType={1}
       >
         <div className="mb-10 sm:mb-0 grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full">
           {liveList.map((live, index) => (

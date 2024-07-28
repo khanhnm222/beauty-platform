@@ -5,43 +5,50 @@ import Image from 'next/image';
 const products = [
   {
     id: 1,
+    name: 'Hannah Olala',
+    type: 'beautyblogger',
+    imageSrc: '/hana_olala.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+  },
+  {
+    id: 2,
     name: 'Dr. Phan Van Chi',
     type: 'doctor',
     imageSrc: '/41.-Phan-Văn-Chí-scaled.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
   },
   {
-    id: 2,
+    id: 3,
     name: 'Suppermodel Bui Quynh Hoa',
     type: 'model',
     imageSrc: '/vietnamese-model.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
   },
   {
-    id: 3,
+    id: 4,
     name: 'Dr. Vo Trieu Dat',
     type: 'doctor',
     imageSrc: '/dr-vo-trieu-dat.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
   },
   {
-    id: 4,
+    id: 5,
     name: 'Nguyen Thanh Nam',
     type: 'doctor',
     imageSrc: '/BS_Nguyen_Thanh_Nam.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
   },
   {
-    id: 5,
+    id: 6,
     name: 'Dr. Hong Gam',
     type: 'doctor',
     imageSrc: '/bs-hong-gam.png',
     imageAlt: "Front of men's Basic Tee in black.",
   },
   {
-    id: 6,
+    id: 7,
     name: 'Giang oi',
-    href: 'blogger',
+    type: 'blogger',
     imageSrc: '/Giang-Oi.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
   },
@@ -56,6 +63,7 @@ const Advisory = () => {
           subCategories: subAdvisoryItems,
           filterList: advisoryFilters
         }}
+        affiliateType={3}
       >
          <div className="bg-white">
           <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -66,6 +74,8 @@ const Advisory = () => {
                     <Image
                       alt={product.imageAlt}
                       src={product.imageSrc}
+                      width={150}
+                      height={256}
                       className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                     />
                   </div>
