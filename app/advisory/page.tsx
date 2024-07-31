@@ -76,7 +76,7 @@ const Advisory = () => {
                       src={product.imageSrc}
                       width={150}
                       height={256}
-                      className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                      className="h-full w-full object-cover object-center lg:h-full lg:w-full md:h-[400px] sm:h-[400px]"
                     />
                   </div>
                   <div className="mt-4 flex justify-between">

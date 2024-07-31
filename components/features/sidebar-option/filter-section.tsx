@@ -2,13 +2,15 @@ import { FilterItem, SubCategories } from "@/types/filter.type";
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
 import { MinusIcon, PlusIcon } from '@heroicons/react/20/solid';
 import AffiliatePanel from "../affiliate/affiliate";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Label } from "@/components/ui/label";
 
 interface FilterSectionProps {
   subCategories?: SubCategories[];
   filters?: FilterItem[];
   affiliateType: number;
 };
-const FilterSection = ({subCategories = [], filters = [], affiliateType}: FilterSectionProps) => {
+const FilterSection = ({ subCategories = [], filters = [], affiliateType }: FilterSectionProps) => {
   return (
     <form className="hidden lg:block">
       <h3 className="sr-only">Categories</h3>
@@ -35,24 +37,24 @@ const FilterSection = ({subCategories = [], filters = [], affiliateType}: Filter
             <div className="space-y-4">
               {section.options.map((option: any, optionIdx: any) => (
                 <div key={option.value} className="flex items-center">
-                  <input
+                  <Checkbox
+                    id={option.value}
                     defaultValue={option.value}
                     defaultChecked={option.checked}
-                    id={`filter-${section.id}-${optionIdx}`}
-                    name={`${section.id}[]`}
-                    type="checkbox"
-                    className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                   />
-                  <label htmlFor={`filter-${section.id}-${optionIdx}`} className="ml-3 text-sm text-gray-600">
+                  <Label
+                    htmlFor={option.value}
+                    className="ml-3 text-sm text-gray-600"
+                  >
                     {option.label}
-                  </label>
+                  </Label>
                 </div>
               ))}
             </div>
           </DisclosurePanel>
         </Disclosure>
       ))}
-      <AffiliatePanel type={affiliateType}/>
+      <AffiliatePanel type={affiliateType} />
     </form>
   );
 };
