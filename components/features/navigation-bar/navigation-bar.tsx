@@ -17,7 +17,7 @@ const NavigationBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const router = useRouter();
   return (
-    <div className="justify-between fixed w-full z-30 flex bg-white/90 dark:bg-[#0F172A] p-2 items-center h-16 px-10 bg-gradient-2 border-b-[1px] border-primary">
+    <div className="justify-between fixed w-full z-30 flex bg-white/90 dark:bg-[#0F172A] p-2 items-center h-16 px-10 bg-gradient-2 border-b-[1px] border-primary shadow-sm">
       <div className={cn(
         styles.logoContainer,
       )}

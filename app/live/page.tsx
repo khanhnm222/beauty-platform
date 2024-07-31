@@ -7,42 +7,42 @@ const Live = () => {
     {
       id: 'skinacre_dr_gam',
       name: 'Skincare: Dr. Gam',
-      avatar: './bs-hong-gam.png',
+      avatar: '/bs-hong-gam.png',
       memberCount: '1',
       onlineCount: '1',
     },
     {
       id: 'makeup_giang_oi',
       name: 'Makeup',
-      avatar: 'Giang-Oi.jpg',
+      avatar: '/Giang-Oi.jpg',
       memberCount: '1',
       onlineCount: '1',
     },
     {
       id: 'suppermodel_bui_quynh_hoa',
       name: 'Bui Quynh Hoa',
-      avatar: 'vietnamese-model.jpg',
+      avatar: '/vietnamese-model.jpg',
       memberCount: '1',
       onlineCount: '1',
     },
     {
       id: 'doctor_dat',
       name: 'Ms Dat',
-      avatar: 'dr-vo-trieu-dat.jpg',
+      avatar: '/dr-vo-trieu-dat.jpg',
       memberCount: '1',
       onlineCount: '1',
     },
     {
       id: 'doctor_pahn_van_chi',
       name: 'Phan Van Chi',
-      avatar: '41.-Phan-Văn-Chí-scaled.jpg',
+      avatar: '/41.-Phan-Văn-Chí-scaled.jpg',
       memberCount: '1',
       onlineCount: '1',
     },
   ];
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between py-24 lg:px-24 md:px-16 sm:px-10">
       <SidebarOption
         title="Live"
         contentHeading="List"

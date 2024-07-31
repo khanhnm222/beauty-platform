@@ -55,7 +55,7 @@ const products = [
 ]
 const Advisory = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between py-24 lg:px-24 md:px-16 sm:px-10">
       <SidebarOption
         title="Advisory"
         contentHeading="List"
@@ -66,7 +66,7 @@ const Advisory = () => {
         affiliateType={3}
       >
          <div className="bg-white">
-          <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+          <div className="mx-auto max-w-2xl px-10 sm:px-6 lg:max-w-7xl lg:px-8">
             <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
               {products.map((product) => (
                 <div key={product.id} className="group relative">
