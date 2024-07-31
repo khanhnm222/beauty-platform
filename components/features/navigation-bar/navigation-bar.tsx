@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import logo from '@/public/belle-logo.png';
+import logo from '@/public/belle-white-logo.png';
 import styles from './style.module.css';
 import { IconNotification } from "@/components/icons";
 import IconHeart from "@/components/icons/IconHeart";
