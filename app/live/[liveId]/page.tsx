@@ -26,6 +26,9 @@ const LiveDetail = ({ params }: any) => {
         }],
         scenario: {
           mode: ZegoUIKitPrebuilt.OneONoneCall, // GroupCall
+        },
+        branding: {
+          logoURL: 'https://main--belle-beauty-platform.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbelle-logo.53201411.png&w=256&q=75'
         }
       });
     }
